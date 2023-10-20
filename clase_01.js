@@ -1,4 +1,4 @@
-// Ejercicio 1
+// Ejercicio (clase)
 
 let myFavouriteHero = "Hulk";
 let x = 50;
@@ -7,7 +7,7 @@ let y = 10;
 let z = h + y;
 console.log(z);
 
-// Ejercicio 2
+// Ejercicio 2 (clase)
 
 // 1.1
 const character = {name: 'Jack Sparrow', age: 10};
@@ -36,7 +36,7 @@ console.log(globalBasePrice)
 console.log(car1.finalPrice)
 console.log(car2.finalPrice)
 
-// Ejercicio 3
+// Ejercicio 3 (clase)
 
 const number1 = 10;
 const number2 = 20;
@@ -71,3 +71,38 @@ if (((number3 * 5) == number1) && ((number1 * 2) == number2)) {
 if (((number2 / 2) == number1) || ((number1 / 5) == number3)) {
   console.log("number2 entre 2 es igual a number1 O number1 entre 5 es igual a number3");
 }
+
+// Iteración #3: Operadores
+// 1.1 Multiplica 10 por 5 y muestra el resultado mediante alert.
+
+// 1.2 Divide 10 por 2 y muestra el resultado en un alert.
+
+// 1.3 Muestra mediante un alert el resto de dividir 15 por 9.
+
+// 1.4 Usa el correcto operador de asignación que resultará en x = 15, 
+// teniendo dos variables y = 10 y z = 5.
+
+// 1.5 Usa el correcto operador de asignación que resultará en x = 50,
+// teniendo dos variables y = 10 y z = 5.
+
+// 1.1
+let resultado1 = 10 * 5;
+alert(resultado1);
+// 1.2
+let resultado2 = 10 / 2;
+alert(resultado2);
+// 1.3
+let resultado3 = 15 % 9;
+alert(resultado3);
+// 1.4 
+let y = 10;
+let z = 5;
+let x = y;
+
+x += z;
+// 1.5
+let y = 10;
+let z = 5;
+let x = y;
+
+x *= z;
