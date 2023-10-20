@@ -85,15 +85,13 @@ if (((number2 / 2) == number1) || ((number1 / 5) == number3)) {
 // 1.5 Usa el correcto operador de asignación que resultará en x = 50,
 // teniendo dos variables y = 10 y z = 5.
 
+// Desarrollo
 // 1.1
-let resultado1 = 10 * 5;
-alert(resultado1);
+alert(10 * 5);
 // 1.2
-let resultado2 = 10 / 2;
-alert(resultado2);
+alert(10 / 2);
 // 1.3
-let resultado3 = 15 % 9;
-alert(resultado3);
+alert(15 % 9);
 // 1.4 
 let y = 10;
 let z = 5;
@@ -106,3 +104,34 @@ let z = 5;
 let x = y;
 
 x *= z;
+
+// Iteración #6: Bucles
+// 1.1 Crea un bucle for que vaya desde 0 a 9 y muestralo por consola.
+
+// 1.2 Crea un bucle for que vaya desde 0 a 9 y muestralo por consola solo 
+// cuando el resto del numero dividido entre 2 sea 0.
+
+// 1.3 Crea un bucle para conseguir dormir contando ovejas. 
+// Este bucle empieza en 0 y termina en 10. 
+// Muestra por consola un mensaje diciendo 'Intentando dormir' en cada vuelta del bucle 
+// y cambia el mensaje en la última vuelta a 'Dormido!'.
+
+// Desarrollo
+// 1.1
+for (let i = 0; i < 10; i++) {
+  console.log(i);
+};
+// 1.2
+for (let i = 0; i < 10; i++) {
+  if (i % 2 == 0) {
+    console.log(i);
+  }
+};
+// 1.3
+for (let i = 0; i <= 10; i++) {
+  if (i < 10) {
+    console.log("Intentando dormir");
+  } else {
+    console.log("Dormido")
+  }
+};
